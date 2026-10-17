@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+
+# Runtime data: uploaded PDFs, embedded Postgres, model cache, logs
+backend/data/
+
+# Evaluation output
+backend/eval/results.json
+backend/eval/corpus/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
