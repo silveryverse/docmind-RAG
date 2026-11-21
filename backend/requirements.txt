@@ -10,7 +10,7 @@ fastembed>=0.4
 psycopg[binary]>=3.2
 psycopg-pool>=3.2
 pgvector>=0.3
-openai>=1.40
+openai>=3.57.0
 anthropic>=0.34
 # Embedded PostgreSQL + pgvector for local runs without DATABASE_URL
 pgserver>=0.1.4
